@@ -3,7 +3,23 @@ uuid = "394010f4-4346-45ab-9731-a6c80f8aa73f"
 authors = ["Brian D. Klahn <briandk@virginia.edu> and contributors"]
 version = "1.0.0-DEV"
 
+[deps]
+Arrow = "69666777-d1a9-59fb-9406-91d4454c9d45"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+FileTypes = "b58e86d0-4a47-4fce-a54d-8006a143ed90"
+GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+
 [compat]
+Arrow = "2.8.0"
+CSV = "0.10.15"
+DataFrames = "1.7.0"
+FileTypes = "0.1.0"
+GZip = "0.6.2"
+HTTP = "1.10.15"
+JSON3 = "1.14.1"
 julia = "1.11"
 
 [extras]
